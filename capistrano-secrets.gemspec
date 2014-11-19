@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-secrets"
-  gem.version       = '0.0.1'
+  gem.version       = '0.0.3'
   gem.authors       = ["Vadim Rastyagaev"]
   gem.email         = ["rastyagaev@gmail.com"]
   gem.description   = %q{Load application secrets from heroku app environment.}
